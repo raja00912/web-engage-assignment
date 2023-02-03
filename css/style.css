@@ -1,0 +1,33 @@
+#parent_div {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 30px;
+}
+
+#firstChild img {
+    height: 130%;
+}
+
+#secondChild input,
+#secondChild select {
+    padding: 9px 13px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#secondChild #select_box {
+    width: 20%;
+}
+
+#secondChild #numberInput {
+    width: 70%;
+}
+
+#secondChild #submit_btn {
+    width: 95%;
+    background-color: black;
+    color: white;
+}
